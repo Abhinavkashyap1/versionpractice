@@ -1,0 +1,50 @@
+
+body{
+    background-image: linear-gradient(45deg, rgba(86, 86, 86,0.04) 0%, rgba(86, 86, 86,0.04) 50%,rgba(169, 169, 169,0.04) 50%, rgba(169, 169, 169,0.04) 71%,rgba(251, 251, 251,0.04) 71%, rgba(251, 251, 251,0.04) 100%),linear-gradient(45deg, rgba(86, 86, 86,0.04) 0%, rgba(86, 86, 86,0.04) 56%,rgba(169, 169, 169,0.04) 56%, rgba(169, 169, 169,0.04) 67%,rgba(251, 251, 251,0.04) 67%, rgba(251, 251, 251,0.04) 100%),linear-gradient(135deg, rgba(86, 86, 86,0.04) 0%, rgba(86, 86, 86,0.04) 4%,rgba(169, 169, 169,0.04) 4%, rgba(169, 169, 169,0.04) 75%,rgba(251, 251, 251,0.04) 75%, rgba(251, 251, 251,0.04) 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+}
+.login{
+    height: 350px;
+    width: 400px;
+    margin-top: 230px;
+    margin-left: 540px;
+    border: 2px solid rgb(244, 209, 164);
+    background-color:rgb(205, 184, 157) ;
+    border-radius: 5%;
+    
+}
+.login h2{
+    text-align: center;
+    color: red;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 50px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+    background-color:black ;
+    margin-bottom: 30px;
+   
+}
+.psw{
+    padding: 15px;
+    
+    margin-left: 50px;
+    
+}
+.psw a{
+    color: red;
+}
+
+
+button:hover{
+    background-color:#3E5151;
+}
